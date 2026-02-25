@@ -31,7 +31,7 @@ For more details, see the official documentation:
 Clone this repository directly into your Kitty configuration directory:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git ~/.config/kitty
+git clone https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example.git ~/.config/kitty
 ```
 
 If the directory already exists, back it up first:
