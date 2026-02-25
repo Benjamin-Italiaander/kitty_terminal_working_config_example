@@ -1,7 +1,14 @@
-# kitty terminal working kitty.conf example
-A working configuration for the Kitty terminal i use in Linux in combination with Oh My Zsh
+# Kitty Terminal – Example `kitty.conf`
 
-It's included a small modification inside the tab_bar. Ofcourse its a exampel.
+This repository contains a working configuration for the Kitty terminal that I use on Linux in combination with Oh My Zsh.
 
-I did change the mod_kitty to ctrl+super so ctrl+shift is not working anymore. Of course you can change it back.
+It also includes a small customization of the `tab_bar` for visual adjustments. Treat it as an example configuration that you can adapt to your own preferences.
 
+## Keybinding Change
+
+I changed the default `kitty_mod` from `Ctrl+Shift` to `Ctrl+Super`.
+This means `Ctrl+Shift` no longer functions as the Kitty modifier key.
+
+If you prefer the default behavior, you can easily revert this change in the configuration.
+
+---
