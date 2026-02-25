@@ -1,3 +1,5 @@
+Original source of this document can be fount [here](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
+
 # 🐱 Kitty Terminal Configuration
 
 A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work smoothly with **Oh My Zsh**.
