@@ -38,7 +38,7 @@ If the directory already exists, back it up first:
 
 ```bash
 mv ~/.config/kitty ~/.config/kitty.backup
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git ~/.config/kitty
+git clone https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example.git ~/.config/kitty
 ```
 
 Restart Kitty after cloning to apply the configuration.
