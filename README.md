@@ -1,8 +1,4 @@
-Perfect — since it’s your own repo, let’s just make it clean and definitive.
 
-Here is the final polished version with the correct clone URL included:
-
----
 
 Original source of this document:
 👉 [https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
