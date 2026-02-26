@@ -1,4 +1,4 @@
-Original source of this document [https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
+Original source of this document you can find [here](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
 
 
 
