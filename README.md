@@ -1,3 +1,13 @@
+---
+
+section: Linux
+title: 'Kitty Terminal'
+description: 'A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work seamlessly with **Oh My Zsh**.'
+author: 'benjamin-italiaander'
+date: 2023
+
+---
+
 Original source of this document you can find [here](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
 
 
