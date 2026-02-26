@@ -1,10 +1,19 @@
-Original source of this document can be fount [here](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
+Perfect — since it’s your own repo, let’s just make it clean and definitive.
+
+Here is the final polished version with the correct clone URL included:
+
+---
+
+Original source of this document:
+👉 [https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
+
+---
 
 # 🐱 Kitty Terminal Configuration
 
-A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work smoothly with **Oh My Zsh**.
+A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work seamlessly with **Oh My Zsh**.
 
-This repository reflects my personal workflow and includes visual and usability tweaks.
+This repository reflects my personal workflow and includes visual and usability enhancements.
 Use it as a solid starting point and adapt it to your own preferences.
 
 ---
@@ -13,15 +22,15 @@ Use it as a solid starting point and adapt it to your own preferences.
 
 ### 1️⃣ Install Kitty (Recommended Method)
 
-It is recommended to install Kitty using the official installer provided by the author:
+Install Kitty using the official installer provided by the author:
 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ```
 
-This method ensures you get the latest official binary directly from the source.
+This ensures you are running the latest official binary directly from the source.
 
-For more details, see the official documentation:
+Official documentation:
 [https://sw.kovidgoyal.net/kitty/binary/](https://sw.kovidgoyal.net/kitty/binary/)
 
 ---
@@ -45,25 +54,18 @@ Restart Kitty after cloning to apply the configuration.
 
 ---
 
-## ✨ Features
-
-* Optimized for Linux
-* Designed for Oh My Zsh
-* Custom `tab_bar` styling
-* Modified `kitty_mod` keybinding
-
----
-
 ## ⌨️ Modifier Key Change
 
-The default modifier key has been changed:
+Because I use the **MATE desktop environment**, I changed the default modifier key.
+
+In this configuration:
 
 ```
 Default:  Ctrl+Shift
 Current:  Ctrl+Super
 ```
 
-If you prefer the default behavior, edit `kitty.conf` and revert:
+If you prefer the default behavior, edit `kitty.conf` and revert the change:
 
 ```conf
 # Disable custom modifier
@@ -73,29 +75,31 @@ If you prefer the default behavior, edit `kitty.conf` and revert:
 kitty_mod ctrl+shift
 ```
 
+---
+
 ## 🔗 Recommended Shell Alias
 
 For improved file navigation, I recommend enabling hyperlink support in `ls`.
 
-Add the following alias to your shell configuration file:
+In many setups, an `ls` alias already exists. I recommend modifying it by adding `--hyperlink=auto` to the existing alias.
 
 ### For Zsh
 
-Add to `~/.zshrc`:
+Add or modify in `~/.zshrc`:
 
 ```bash
-alias ll='ls --hyperlink=auto'
+alias ls='ls --hyperlink=auto --color=auto'
 ```
 
 ### For Bash
 
-Add to `~/.bashrc`:
+Add or modify in `~/.bashrc`:
 
 ```bash
-alias ll='ls --hyperlink=auto'
+alias ls='ls --hyperlink=auto --color=auto'
 ```
 
-After adding the alias, reload your shell:
+Reload your shell after updating:
 
 ```bash
 source ~/.zshrc
@@ -103,5 +107,4 @@ source ~/.zshrc
 source ~/.bashrc
 ```
 
-This enables clickable file paths in supported terminals (including Kitty), making navigation more efficient when working with directories and logs.
-
+This enables clickable file paths in supported terminals (including Kitty), making navigation more efficient when working with directories, logs, and build outputs.
