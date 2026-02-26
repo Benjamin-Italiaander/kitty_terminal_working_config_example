@@ -3,6 +3,16 @@
 Original source of this document:
 👉 [https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example](https://github.com/Benjamin-Italiaander/kitty_terminal_working_config_example)
 
+
+## Table of Contents
+
+* [Installation](#installation)
+
+  * [Install Kitty](#1-install-kitty-recommended-method)
+  * [Clone This Configuration](#2-clone-this-configuration)
+* [Modifier Key Change](#modifier-key-change)
+* [Recommended Shell Alias enable mouse select in shell](#recommended-shell-alias)
+
 ---
 
 # 🐱 Kitty Terminal Configuration
