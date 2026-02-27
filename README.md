@@ -1,9 +1,10 @@
+
 ---
 
-section: Linux
-title: 'Kitty Terminal'
-description: 'A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work seamlessly with **Oh My Zsh**.'
-author: 'benjamin-italiaander'
+
+title: "Kitty Terminal"
+description: "A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, designed to work seamlessly with **Oh My Zsh**."
+author: "benjamin-italiaander"
 date: 2023
 
 ---
