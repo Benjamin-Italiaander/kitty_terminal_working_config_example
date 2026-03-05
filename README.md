@@ -111,4 +111,96 @@ source ~/.zshrc
 source ~/.bashrc
 ```
 
+----
+
+Nice, dit is precies zo’n stukje dat je **Kitty notes** echt praktisch maakt. Ik heb je originele stuk iets uitgebreid en er een paar **handige Kitty-specifieke aliases** bij gezet die vaak gebruikt worden.
+
+````markdown
+## Other Helpful Aliases
+
+### SSH alias for Kitty
+
+When using **SSH from the Kitty terminal**, tools like `vim` may not always behave correctly out of the box.  
+A simple solution is to use Kitty’s built-in SSH helper.
+
+Kitty automatically sets the environment variable:
+
+```bash
+echo $KITTY_WINDOW_ID
+````
+
+* If you are running inside **Kitty**, this variable contains a number.
+* If you are **not running Kitty**, the variable is empty.
+
+This makes it easy to create **aliases that only apply when the terminal is Kitty**, without affecting your normal terminal environment.
+
+> ⚠️ Tip: Define your **regular aliases first**, and then add the Kitty-specific ones afterwards.
+> This way you extend your configuration only for Kitty instead of changing the behavior of every terminal.
+
+Example:
+
+```bash
+if [ -n "$KITTY_WINDOW_ID" ]; then
+    alias ssh="kitty +kitten ssh"
+    alias ls="ls --hyperlink=auto --color=auto"
+fi
+```
+
+This ensures that:
+
+* `ssh` automatically uses Kitty’s optimized SSH integration.
+* `ls` enables clickable hyperlinks and color support when running inside Kitty.
+
+---
+
+## Additional Useful Kitty Aliases
+
+Kitty provides several small utilities called **kittens** that can enhance the terminal experience.
+
+You can expose them through convenient aliases.
+
+```bash
+if [ -n "$KITTY_WINDOW_ID" ]; then
+    alias ssh="kitty +kitten ssh"
+    alias ls="ls --hyperlink=auto --color=auto"
+
+    # Display images directly in the terminal
+    alias icat="kitty +kitten icat"
+
+    # Open files in the system default application
+    alias kopen="kitty +kitten open"
+
+    # Show the current terminal colors
+    alias kcolors="kitty +kitten themes"
+
+    # Quickly view text files with syntax highlighting
+    alias kless="kitty +kitten diff"
+
+    # Copy stdin directly to the system clipboard
+    alias clip="kitty +kitten clipboard"
+fi
+```
+
+### Example Usage
+
+Show an image inside the terminal:
+
+```bash
+icat image.png
+```
+
+Copy command output to your clipboard:
+
+```bash
+cat file.txt | clip
+```
+
+Open a file with the system default application:
+
+```bash
+kopen document.pdf
+```
+
+
+
 This enables clickable file paths in supported terminals (including Kitty), making navigation more efficient when working with directories, logs, and build outputs.
