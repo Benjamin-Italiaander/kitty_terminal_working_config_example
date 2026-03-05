@@ -176,6 +176,8 @@ if [ -n "$KITTY_WINDOW_ID" ]; then
 
     # Copy stdin directly to the system clipboard
     alias clip="kitty +kitten clipboard"
+
+    alias vim="vim -c 'set termguicolors'"
 fi
 ```
 
