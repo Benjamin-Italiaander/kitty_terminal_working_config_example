@@ -113,9 +113,7 @@ source ~/.bashrc
 
 ----
 
-Nice, dit is precies zo’n stukje dat je **Kitty notes** echt praktisch maakt. Ik heb je originele stuk iets uitgebreid en er een paar **handige Kitty-specifieke aliases** bij gezet die vaak gebruikt worden.
 
-````markdown
 ## Other Helpful Aliases
 
 ### SSH alias for Kitty
@@ -200,7 +198,5 @@ Open a file with the system default application:
 ```bash
 kopen document.pdf
 ```
-
-
 
 This enables clickable file paths in supported terminals (including Kitty), making navigation more efficient when working with directories, logs, and build outputs.
