@@ -20,6 +20,8 @@ A clean and practical `kitty.conf` example for **Kitty Terminal** on Linux, desi
 This repository reflects my personal workflow and includes visual and usability enhancements.
 Use it as a solid starting point and adapt it to your own preferences.
 
+I have a small [cheatsheet](./cheatsheet.md) that might be handy.
+
 ---
 
 ## 🚀 Installation
