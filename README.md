@@ -201,4 +201,38 @@ Open a file with the system default application:
 kopen document.pdf
 ```
 
-This enables clickable file paths in supported terminals (including Kitty), making navigation more efficient when working with directories, logs, and build outputs.
+
+---
+
+# 🐱 Kitty Terminal Cheatsheet
+---
+
+## 🪟 Window & Tab Management
+
+| Shortcut | Description |
+|--------|-------------|
+| `mod + Enter` | Open a new window |
+| `mod + T` | Open a new tab |
+| `mod + ← / →` | Switch between tabs |
+| `mod + [ / ]` | Switch between windows |
+| `mod + F11` | Toggle fullscreen |
+
+---
+
+## 🔎 Navigation & Command Output
+
+| Shortcut | Description |
+|--------|-------------|
+| `mod + G` | Open last command output |
+| `mod + Mouse Click` | Open output from a command |
+
+---
+
+## 🔢 Identify & Select Panels / Windows
+
+| Shortcut | Description |
+|--------|-------------|
+| `mod + F7` | Show panel/window numbers |
+| `mod + panel-number` | Jump to the selected panel |
+
+
