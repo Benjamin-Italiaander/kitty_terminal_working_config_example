@@ -13,6 +13,9 @@ Quick reference for the shortcuts I use most while working in **Kitty terminal**
 | `mod + ← / →` | Switch between tabs |
 | `mod + [ / ]` | Switch between windows |
 | `mod + F11` | Toggle fullscreen |
+| `mod + w` | Resize windows |
+| `mod + l` | Re-agrange windows |
+
 
 ---
 
