@@ -28,6 +28,12 @@ I have a small [cheatsheet](./cheatsheet.md) that might be handy.
 
 ### 1️⃣ Install Kitty (Recommended Method)
 
+Install the font i use in my theme with
+```bash
+sudo apt install fonts-firacode
+```
+
+
 Install Kitty using the official installer provided by the author:
 
 ```bash
